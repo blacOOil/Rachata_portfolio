@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="blog.js"></script>
+
+    <script src="game.js"></script>
+    <script src='register.js'></script>
+</head>
+
+<body>
+    <div class="header">
+        <div>
+            <ul class="HeaderList">
+
+                <li><a href="index.html"><button>Home</button></a></li>
+                <li><button>ABOUT ME</button></li>
+                <li><a href="Project.html"><button>PORTFOLIO</button></a></li>
+                <li><button>SERVICE</button></li>
+                <li><button>EXPERIECE</button></li>
+                <li><a href="Register.html"><button>Register</button></a></li>
+            </ul>
+            </ul>
+        </div>
+        <div class="Content">
+            <div class="Pass-Project">
+                <h1>Pass</h1>
+                <h1>Project</h1>
+                <h2>3D Art</h2>
+                <div class="PassProjectContainer">
+                    <img class="PassProContent" src="Pic/isometrucBed.png">
+                    <img class="PassProContent" src="Pic/isoTV.png">
+                    <img class="PassProContent" src="Pic/RedRoom.png">
+                    <img class="PassProContent" src="Pic/WhiteRoom.png">
+                    <img class="PassProContent" src="Pic/Tavern.png">
+                    <img class="PassProContent" src="Pic/BigRoom.png">
+                </div>
+                <h2>2D Art</h2>
+                <div class="PassProjectContainer">
+                    <img class="PassProContent" src="Pic/TheCity.png">
+                    <img class="PassProContent" src="Pic/HDEMON.png">
+                </div>
+            </div>
+            <div class="OngoingPro">
+                <h1>>>>>On going Project</h1>
+                <div class="OngoingProContainter">
+                  <h2>untitle 2D Animation</h2>   
+                <img class="OngoingProContent" src="Pic/HBD.gif">
+                <h2>Project Ikarush (GameMobile)</h2>
+                <img class="OngoingProContent" src="Pic/GameMobile.png">
+               <h2>squargame html5</h2>
+
+                    
+                </div>
+
+            </div>
+            <div class="squargame">
+
+                <fieldset>
+                    <legend>Box Game</legend>
+                    Number of box:
+                    <input type="text" name="numbox" id="numbox">
+                    <select name="color" id="color">
+                        <option value="maroon">Maroon</option>
+                        <option value="lightgreen">Lightgreen</option>
+                        <option value="magenta">Magenta</option>
+                    </select>
+                    <button id="start">Start</button>
+                    <div id="timerClock"> Timer:
+                        <div id="clock"></div>
+                    </div>
+                </fieldset>
+                <div id="container">
+                    <div id="layer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="Blog">
+            <h1>Commnent</h1>
+
+            <div id="topic1"></div>
+            <div id="comment1"></div>
+            <div id="comment2"></div>
+
+            <textarea name="text1" id="text1"></textarea>
+            <br />
+            <button type="button" id="Postbutton" onclick="postFunction()">Post</button>
+            <button type="button" id="Postbutton" onclick="clearFunction()">Clear</button>
+
+        </div>
+
+
+
+</body>
+
+</html>
